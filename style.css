@@ -63,11 +63,11 @@ body {
 }
 
 #main-header {
-    background-color: #2d2d2d;
+    background-color:#1f1f1f;
 }
 
 .head-content {
-    color: #fff;
+    color: #2d2d2d;
     text-align: center;
     padding: 60px 0;
 }
@@ -88,7 +88,7 @@ p.desc {
 
 .btn-content {
     cursor: pointer;
-    background-color: #ff5357;
+    background-color: #f74d4c;
     text-transform: uppercase;
     color: #fff;
     border: none;
