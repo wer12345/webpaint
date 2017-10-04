@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -134,7 +136,7 @@ p.desc {
 
 .feature-title {
 	font-size: 30px;
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: 0.5px;
 	color: #616161;
 	margin-top: 55px;
@@ -167,10 +169,18 @@ p.desc {
 	color: #fff;
 	border: none;
 	padding: 10px 20px;
-	font-weight: 900;
+	font-weight: 700;
 	font-size: 12px;
 	border-radius: 5px;
 	letter-spacing:: 0.5px;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	#feature ul li a {
+		font-weight: 900;
+	}
 }
 
 #feature ul li a.active,
@@ -184,6 +194,4 @@ p.desc {
 
 #feature img {
 	padding: 4px 4px;
-	width: 270px;
-	height: 230px;
 }
