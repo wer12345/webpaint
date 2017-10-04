@@ -131,6 +131,7 @@ p.desc {
 }
 
 #feature {
+	padding: 60px;
 	text-align: center;
 }
 
@@ -139,7 +140,6 @@ p.desc {
 	font-weight: 700;
 	letter-spacing: 0.5px;
 	color: #616161;
-	margin-top: 55px;
 	padding-bottom: 15px;
 }
 
